@@ -1,0 +1,25 @@
+@media (min-width: 320px){
+    .main_section{
+        display: grid;
+        grid-column: 1/5;
+        text-align: center;
+        padding: 0;
+    
+    }
+}
+@media (min-width: 576px){
+
+.main_section {
+    display: grid;
+    grid-column: 1/4;
+    background-color: rgb(246, 248, 247);
+
+}
+.main_section .article{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    gap: 5px;
+    grid-template-rows: auto;
+}
+}
+

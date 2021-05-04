@@ -1,0 +1,17 @@
+@media (min-width: 320px) { 
+    .tag_menu {
+         display: none;
+    }
+}
+.tag_menu li{
+
+    list-style-type: none;
+
+   }
+   @media (min-width: 576px){
+    .tag_menu{
+        display: grid;
+        grid-column: 3/4;;
+        
+    }
+    }

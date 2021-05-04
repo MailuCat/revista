@@ -1,0 +1,12 @@
+@media (min-width: 320px) { 
+ .nosotros{
+      display: none;
+  }
+}
+@media (min-width: 576px){
+.nosotros{
+    display: grid;
+    grid-column: 3/4;;
+    
+}
+}

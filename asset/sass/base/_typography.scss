@@ -1,0 +1,60 @@
+body{
+    font-family: $indi;
+}
+
+@media (min-width: 300px) {
+            .navigation_logo{
+                font-family: $diplomata;
+                @include relative-convert (font-size, rem, 18, 16);
+                    
+            }
+}
+
+@media (min-width: 767.98px) {
+
+    .navigation_logo{
+        font-family: $diplomata;
+        @include relative-convert (font-size, rem, 30, 16);
+            
+    }
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+  }
+
+}
+
+h1{
+   text-align: center;
+    @include relative-convert (font-size, rem, 18 , 16);
+    color: blue;
+} 
+
+h2{
+   
+    @include relative-convert (font-size, rem, 16 , 16);
+    text-align: center
+}
+h3{
+
+    @include relative-convert (font-size, rem, 14 , 16);
+    color: #333;
+
+}
+
+p{
+    text-align: justify;
+    color: #333;
+    padding: 15px;
+    @include relative-convert (font-size, rem, 14 , 16);
+    
+   
+    
+}
+
+.footer_text{
+    font-size: small;
+    text-align: center;
+}
+

@@ -1,24 +1,240 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/base\/_reset\.scss}line{font-family:\000031}}
 body {
-  background-color: #F7F7F5;
-  font-family: "ind Siligur", "Arial", "sans-serif";
-  margin: 60px;
-  margin-top: 20px; }
+  margin: cero;
+  padding: cero;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  max-width: 100%; }
 
-.logo {
-  font-family: "diplomata", "impact";
-  font-size: x-large; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+body {
+  font-family: "Ind Siligur", Arial, Sans-serif; }
 
-main
+@media (min-width: 300px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/base\/_typography\.scss}line{font-family:\000036}}
+  .navigation_logo {
+    font-family: "Diplomata", "Impact", Sans-serif;
+    font-size: 1.125rem; } }
+@media (min-width: 767.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/base\/_typography\.scss}line{font-family:\0000315}}
+  .navigation_logo {
+    font-family: "Diplomata", "Impact", Sans-serif;
+    font-size: 1.875rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/base\/_typography\.scss}line{font-family:\0000320}}
+  a {
+    outline: none;
+    text-decoration: none;
+    color: black; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
 h1 {
-  font-family: "ind Siligur", "Arial", "sans-serif";
-  margin-top: 10px; }
+  text-align: center;
+  font-size: 1.125rem;
+  color: blue; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/base\/_typography\.scss}line{font-family:\0000334}}
+h2 {
+  font-size: 1rem;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/base\/_typography\.scss}line{font-family:\0000339}}
+h3 {
+  font-size: 0.875rem;
+  color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/base\/_typography\.scss}line{font-family:\0000346}}
 p {
-  font-family: "ind Siligur", "Arial", "sans-serif";
-  text-align: justify; }
+  text-align: justify;
+  color: #333;
+  padding: 15px;
+  font-size: 0.875rem; }
 
-li {
-  display: inline;
-  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/base\/_typography\.scss}line{font-family:\0000356}}
+.footer_text {
+  font-size: small;
+  text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/components\/_buttons\.scss}line{font-family:\000031}}
+.boletin_button button {
+  background-color: orange;
+  color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_grid\.scss}line{font-family:\000031}}
+.container {
+  display: grid;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1.5em;
+  grid-template-columns: repeat(4, 1fr); }
+
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\000033}}
+  .navigation {
+    position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\000037}}
+  .navigation_logo {
+    position: absolute;
+    top: .9em;
+    left: 2.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000312}}
+  .collapsible {
+    text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000314}}
+    .collapsible label {
+      display: block;
+      padding-top: .5em;
+      padding-bottom: .5em;
+      padding-right: 1.5em;
+      font-size: 1.8rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000322}}
+  #menu {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000326}}
+  input:checked ~ .navigation_container {
+    max-height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000329}}
+  .navigation_container {
+    max-height: 0;
+    padding: 0;
+    overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000334}}
+  .navigation_list {
+    list-style-type: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000341}}
+  .navigation_item a {
+    display: block;
+    text-align: left;
+    padding: .5em;
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000350}}
+  .navigation_item:hover {
+    color: #708090; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000355}}
+  .input-menu {
+    border-radius: 20%;
+    display: block;
+    text-align: left;
+    padding: .5em;
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none; } }
+@media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000367}}
+  .navigation_logo {
+    top: 1em;
+    left: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000372}}
+  .collapsible label {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000377}}
+  .navigation_container {
+    max-height: 100%;
+    padding: .5em 0em 0em 0;
+    overflow: visible; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000382}}
+  .navigation_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000389}}
+  .navigation_item a {
+    padding: 0em 0.5em;
+    font-size: 1rem;
+    padding-top: 0.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_navigation\.scss}line{font-family:\0000397}}
+  .input-menu {
+    border-radius: 20%;
+    margin-right: 1em;
+    width: 4em; } }
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_main-section\.scss}line{font-family:\000032}}
+  .main_section {
+    display: grid;
+    grid-column: 1/5;
+    text-align: center;
+    padding: 0; } }
+@media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_main-section\.scss}line{font-family:\0000312}}
+  .main_section {
+    display: grid;
+    grid-column: 1/4;
+    background-color: #f6f8f7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_main-section\.scss}line{font-family:\0000318}}
+  .main_section .article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    grid-template-rows: auto; } }
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_nosotros\.scss}line{font-family:\000032}}
+  .nosotros {
+    display: none; } }
+@media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_nosotros\.scss}line{font-family:\000037}}
+  .nosotros {
+    display: grid;
+    grid-column: 3/4; } }
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_tagmenu\.scss}line{font-family:\000032}}
+  .tag_menu {
+    display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_tagmenu\.scss}line{font-family:\000036}}
+.tag_menu li {
+  list-style-type: none; }
+
+@media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_tagmenu\.scss}line{font-family:\0000312}}
+  .tag_menu {
+    display: grid;
+    grid-column: 3/4; } }
+@media (min-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_destacados\.scss}line{font-family:\000032}}
+  .tag_destacadas {
+    display: none; } }
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_destacados\.scss}line{font-family:\000037}}
+  .tag_destacadas {
+    display: grid;
+    grid-column: 3/4; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/boletin\.scss}line{font-family:\000031}}
+.boletín_texto {
+  text-align: center;
+  margin: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_footer\.scss}line{font-family:\000031}}
+.footer {
+  display: grid;
+  text-align: center;
+  margin: 45px;
+  margin-bottom: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/user\/OneDrive\/Desafios\/revista_online_old\/asset\/sass\/layout\/_footer\.scss}line{font-family:\000038}}
+.footer_text {
+  font-size: 12px;
+  text-align: center; }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,12 @@
+@media (min-width: 320px){
+    .tag_destacadas{
+        display: none;
+    }
+}
+@media (min-width: 768px) { 
+.tag_destacadas{
+    display: grid;
+    grid-column: 3/4;
+    
+}
+}
